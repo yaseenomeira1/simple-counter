@@ -1,0 +1,30 @@
+.counter{
+    color: white;
+    width: 20px;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    height: 100vh;
+}
+.buttons{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.button{
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.up:hover{
+    background-color: green;
+}
+
+.down:hover{
+    background-color: red;
+}
